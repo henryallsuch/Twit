@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		08FA295B01184B37821BCF866539599A /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BF79A3A1C6FEF108CF16DE0537B0431 /* WebSocket.swift */; };
-		35CD63B60B01CB6E1A00B70164CEA583 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1661B72F0A274473D9147AAE8A3E06F1 /* Starscream-dummy.m */; };
+		2FFABBE23DF09EAC70315295B62A5CB5 /* Starscream-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 677BC8911948C9658703184E269F0032 /* Starscream-dummy.m */; };
 		384E1FA7E9FAD69B4202B4ACC031217A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		43EC77DC7204500964A686E4E1D5B626 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D996E17FD79A681D5829532F50CF07C /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43EC77DC7204500964A686E4E1D5B626 /* Starscream-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74687D9F2CCAEE0A7C24845698666DB3 /* Starscream-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		62F94A1A4676FC1D917548930F1ED444 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		67A3C8AEAD49A0DA526D34B684AFCCFC /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF667E69ACDB807B282E380354DB273 /* WebSocket.swift */; };
 		6FDE6B76A59FD0D15A255B5FF704FE8E /* Pods-Twit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F11ACA14C478EE3B3A8A5133DECDEA /* Pods-Twit-dummy.m */; };
+		83BF177612653A1F8E94AEB5B52FB8A4 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 805889F6E182005B68A4EDCFEF2FAF7D /* SSLSecurity.swift */; };
+		A18427F1A34E84AAADAF4BA4889B8723 /* SSLClientCertificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722B7A5196E76DAE17188C05D685DF4C /* SSLClientCertificate.swift */; };
 		A28178011F9992A1A014DE16EFB59915 /* Pods-Twit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FCB69F4E8314E79A3499DA02AD8FD54 /* Pods-Twit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BD4843DFC852F433100DB8557BA1C3D9 /* SSLSecurity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A55365038245EB43AE2A59C80C01FD23 /* SSLSecurity.swift */; };
-		DED00DCACC39543AE6B8D1B8B7F217E9 /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A04D8C3C1516E1A02A46FCEB72236FA /* Compression.swift */; };
+		A737739B8B0BD4A2F68F25434AB0FB3A /* Compression.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9F18693C1114E37BBFBEC8EE8686FDC /* Compression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,28 +31,29 @@
 
 /* Begin PBXFileReference section */
 		0733089ECF413CF24C730C04A5713A53 /* Pods-Twit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Twit.modulemap"; sourceTree = "<group>"; };
-		1661B72F0A274473D9147AAE8A3E06F1 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
+		10CE38F8ACDEAE7BD94DAFBA5E574CC1 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
 		181979D63EDF87FACE0B30D71BE223D6 /* Pods-Twit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twit.release.xcconfig"; sourceTree = "<group>"; };
-		24CD1CF8C67430D7697078621E8DFD65 /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
 		292530580001FC4ABDC02658A4A92959 /* Pods-Twit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Twit-acknowledgements.plist"; sourceTree = "<group>"; };
+		35B75D02BB246E6B7EABEF61F78891EC /* Starscream.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Starscream.modulemap; sourceTree = "<group>"; };
 		39F11ACA14C478EE3B3A8A5133DECDEA /* Pods-Twit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Twit-dummy.m"; sourceTree = "<group>"; };
-		3A89F29E62024F23802960B4656EAB90 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
-		3BF79A3A1C6FEF108CF16DE0537B0431 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/WebSocket.swift; sourceTree = "<group>"; };
 		4B39B292133D9F105CAF9E617D7C552C /* Pods-Twit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Twit-frameworks.sh"; sourceTree = "<group>"; };
 		57A3FF0059DC1675CC3FA3CF6F04DDD0 /* Pods_Twit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Twit.framework; path = "Pods-Twit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5A9CED8AF0B775D6F80CBA23DAE19237 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		677BC8911948C9658703184E269F0032 /* Starscream-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Starscream-dummy.m"; sourceTree = "<group>"; };
 		6AC9CDA3EE002DB6409C293D7E9DB66F /* Pods-Twit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Twit-resources.sh"; sourceTree = "<group>"; };
 		6E4F7553F306D3C11705C03833701B44 /* Starscream.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Starscream.framework; path = Starscream.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		722B7A5196E76DAE17188C05D685DF4C /* SSLClientCertificate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLClientCertificate.swift; path = Sources/Starscream/SSLClientCertificate.swift; sourceTree = "<group>"; };
+		74687D9F2CCAEE0A7C24845698666DB3 /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
 		7FCB69F4E8314E79A3499DA02AD8FD54 /* Pods-Twit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Twit-umbrella.h"; sourceTree = "<group>"; };
-		8A04D8C3C1516E1A02A46FCEB72236FA /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Compression.swift; sourceTree = "<group>"; };
+		805889F6E182005B68A4EDCFEF2FAF7D /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/Starscream/SSLSecurity.swift; sourceTree = "<group>"; };
 		90AA46FE9E3F2AF4D42F6E08D3E3A9ED /* Pods-Twit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Twit.debug.xcconfig"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		952CFD548D4ECFDB3F50ED065B587660 /* Pods-Twit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Twit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9D996E17FD79A681D5829532F50CF07C /* Starscream-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-umbrella.h"; sourceTree = "<group>"; };
-		A55365038245EB43AE2A59C80C01FD23 /* SSLSecurity.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SSLSecurity.swift; path = Sources/SSLSecurity.swift; sourceTree = "<group>"; };
-		D81F63893E234525A4008CE1A18359F7 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E30CD6AEB67F8F272DEAB957F7021909 /* Starscream-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Starscream-prefix.pch"; sourceTree = "<group>"; };
+		A0018D722DEC9224FE9C48D7471EE655 /* Starscream.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Starscream.xcconfig; sourceTree = "<group>"; };
+		A9F18693C1114E37BBFBEC8EE8686FDC /* Compression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Compression.swift; path = Sources/Starscream/Compression.swift; sourceTree = "<group>"; };
+		AEF667E69ACDB807B282E380354DB273 /* WebSocket.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = Sources/Starscream/WebSocket.swift; sourceTree = "<group>"; };
+		E5E944E3B1D60840C47A85FF22C4061F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,12 +76,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3472A81D0DB31608B2D83C2463248903 /* Pods */ = {
+		12713C0E04A065748494E1A30294B4A3 /* Starscream */ = {
 			isa = PBXGroup;
 			children = (
-				CB62A5E4B3983660FF962BD54E1FC6E7 /* Starscream */,
+				A9F18693C1114E37BBFBEC8EE8686FDC /* Compression.swift */,
+				722B7A5196E76DAE17188C05D685DF4C /* SSLClientCertificate.swift */,
+				805889F6E182005B68A4EDCFEF2FAF7D /* SSLSecurity.swift */,
+				AEF667E69ACDB807B282E380354DB273 /* WebSocket.swift */,
+				2F8032CF59F581C402F1DD317800A923 /* Support Files */,
 			);
-			name = Pods;
+			name = Starscream;
+			path = Starscream;
+			sourceTree = "<group>";
+		};
+		2F8032CF59F581C402F1DD317800A923 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5E944E3B1D60840C47A85FF22C4061F /* Info.plist */,
+				35B75D02BB246E6B7EABEF61F78891EC /* Starscream.modulemap */,
+				A0018D722DEC9224FE9C48D7471EE655 /* Starscream.xcconfig */,
+				677BC8911948C9658703184E269F0032 /* Starscream-dummy.m */,
+				10CE38F8ACDEAE7BD94DAFBA5E574CC1 /* Starscream-prefix.pch */,
+				74687D9F2CCAEE0A7C24845698666DB3 /* Starscream-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Starscream";
 			sourceTree = "<group>";
 		};
 		444D65343A739915B68EA253B736D7ED /* Pods-Twit */ = {
@@ -113,7 +134,7 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				3472A81D0DB31608B2D83C2463248903 /* Pods */,
+				B2F54CB704E1800078ACC2EEBFF040C5 /* Pods */,
 				AB7FF82AD81A0C0841FE453856043596 /* Products */,
 				9753EE9E6002FC7255B0E9332C4B41E8 /* Targets Support Files */,
 			);
@@ -136,38 +157,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		B2F54CB704E1800078ACC2EEBFF040C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				12713C0E04A065748494E1A30294B4A3 /* Starscream */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CB62A5E4B3983660FF962BD54E1FC6E7 /* Starscream */ = {
-			isa = PBXGroup;
-			children = (
-				8A04D8C3C1516E1A02A46FCEB72236FA /* Compression.swift */,
-				A55365038245EB43AE2A59C80C01FD23 /* SSLSecurity.swift */,
-				3BF79A3A1C6FEF108CF16DE0537B0431 /* WebSocket.swift */,
-				E54986408F60ECB036498154E2A5488B /* Support Files */,
-			);
-			name = Starscream;
-			path = Starscream;
-			sourceTree = "<group>";
-		};
-		E54986408F60ECB036498154E2A5488B /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D81F63893E234525A4008CE1A18359F7 /* Info.plist */,
-				24CD1CF8C67430D7697078621E8DFD65 /* Starscream.modulemap */,
-				3A89F29E62024F23802960B4656EAB90 /* Starscream.xcconfig */,
-				1661B72F0A274473D9147AAE8A3E06F1 /* Starscream-dummy.m */,
-				E30CD6AEB67F8F272DEAB957F7021909 /* Starscream-prefix.pch */,
-				9D996E17FD79A681D5829532F50CF07C /* Starscream-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Starscream";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,7 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 359CD4882DED39319E2A5097AD081D8D /* Build configuration list for PBXNativeTarget "Starscream" */;
 			buildPhases = (
-				F26A3B3A8896BB51C25EBD798B7DB1F8 /* Sources */,
+				46D6A9FD6DB103A234A9625E6970146B /* Sources */,
 				78A3E793B5001D4946D43765F31FF3C6 /* Frameworks */,
 				F9CAD7F75865A34EAF46F504762C9463 /* Headers */,
 			);
@@ -255,22 +258,23 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		46D6A9FD6DB103A234A9625E6970146B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A737739B8B0BD4A2F68F25434AB0FB3A /* Compression.swift in Sources */,
+				A18427F1A34E84AAADAF4BA4889B8723 /* SSLClientCertificate.swift in Sources */,
+				83BF177612653A1F8E94AEB5B52FB8A4 /* SSLSecurity.swift in Sources */,
+				2FFABBE23DF09EAC70315295B62A5CB5 /* Starscream-dummy.m in Sources */,
+				67A3C8AEAD49A0DA526D34B684AFCCFC /* WebSocket.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7E1BAB4631640E16A4C3EFDBA6199678 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6FDE6B76A59FD0D15A255B5FF704FE8E /* Pods-Twit-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F26A3B3A8896BB51C25EBD798B7DB1F8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				DED00DCACC39543AE6B8D1B8B7F217E9 /* Compression.swift in Sources */,
-				BD4843DFC852F433100DB8557BA1C3D9 /* SSLSecurity.swift in Sources */,
-				35CD63B60B01CB6E1A00B70164CEA583 /* Starscream-dummy.m in Sources */,
-				08FA295B01184B37821BCF866539599A /* WebSocket.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +355,7 @@
 		};
 		3E8AF937641120DE883F5F2B7C9BE60C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A89F29E62024F23802960B4656EAB90 /* Starscream.xcconfig */;
+			baseConfigurationReference = A0018D722DEC9224FE9C48D7471EE655 /* Starscream.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -427,7 +431,7 @@
 		};
 		BF6C2FCFBE1774E209FD3060AA43FD77 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A89F29E62024F23802960B4656EAB90 /* Starscream.xcconfig */;
+			baseConfigurationReference = A0018D722DEC9224FE9C48D7471EE655 /* Starscream.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
