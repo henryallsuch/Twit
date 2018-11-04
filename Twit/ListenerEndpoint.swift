@@ -7,33 +7,35 @@ enum ListenerSchemes : String {
 }
 
 struct ListenerEndpoint {
-    let host = "127.0.0.1"
-    let port = 8080
+    let host = "192.168.1.66"
+    let port = 8989
     let path: String
     let scheme : String
-    let queryItems: [URLQueryItem]
+    let queryItems: [URLQueryItem] = []
 }
 
 extension ListenerEndpoint {
 
     var url: URL? {
+        
         var components = URLComponents()
         components.scheme = scheme
         components.host = host
         components.port = port
         components.path = path
-        components.queryItems = queryItems
+        if(queryItems.count > 0){
+            components.queryItems = queryItems
+        }
         
         return components.url
     }
 }
 
 extension ListenerEndpoint {
-    static func listen(path: String) -> ListenerEndpoint {
+    static func listen() -> ListenerEndpoint {
         return ListenerEndpoint(
-            path: path,
-            scheme: ListenerSchemes.websocket.rawValue,
-            queryItems: []
+            path: "/listen",
+            scheme: ListenerSchemes.websocket.rawValue
         )
     }
 }

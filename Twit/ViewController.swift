@@ -4,36 +4,49 @@ import UIKit
 import Starscream
 
 class ViewController: UIViewController,WebSocketDelegate {
-
     
-
+    @IBOutlet weak var startUIButton: UIButton!
+    @IBOutlet weak var stopUIButton: UIButton!
+    
     @IBOutlet weak var console: UITextView!
     
-    //let listenerServerController = ListenerServerController()
-    let socket = WebSocket(url: URL(string: "ws://192.168.1.66:8989/listen")!)
+    static let listenEndpoint = ListenerEndpoint.listen().url!
+   let socket = WebSocket(url: listenEndpoint)
     
     override func viewDidLoad() {
-        super.viewDidLoad()
         
-     
-//        listenerServerController.connect(
-//            {
-//                print("connected")
-//                // self.logToView("Connected!")
-//        },
-//            {
-//
-//                (responseData: Any?) in
-//
-//                print(responseData!)
-//
-//                // self.logToView("Text!")
-//
-//        })
+        super.viewDidLoad()
+        logToView("Ready", clearAllText: true)
+        
+    }
+    
+    @IBAction func didTouchStartButton(_ sender: UIButton) {
+        
+        tryConnect()
+        
+    }
+    
+    @IBAction func didTouchStopButton(_ sender: UIButton) {
+        
+        tryDisconnect()
+        
+    }
+    
+    func tryConnect(){
+        
+        logToView("connecting to: \(ViewController.listenEndpoint)", clearAllText: true)
         
         socket.delegate = self
         socket.connect()
-       
+        
+    }
+    
+    func tryDisconnect(){
+        
+        if(socket.isConnected){
+            socket.disconnect()
+        }
+        
     }
     
     func websocketDidConnect(socket: WebSocketClient) {
@@ -54,7 +67,6 @@ class ViewController: UIViewController,WebSocketDelegate {
 
     func logToView(_ message :String, clearAllText: Bool? = nil , newLine: Bool? = true){
         
-        //always update UI in main thread!
         DispatchQueue.main.async {
             
             if clearAllText != nil {
@@ -64,9 +76,6 @@ class ViewController: UIViewController,WebSocketDelegate {
             if(newLine != nil){
                 self.console.text.append("\n");
             }
-            
-           // let range = NSMakeRange(self.console.text.count - 1, 0)
-           // self.console.scrollRangeToVisible(range)
             
             print(message)
             

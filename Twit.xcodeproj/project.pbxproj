@@ -12,7 +12,6 @@
 		1ADEA13C218CF0AF00F40F62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADEA13A218CF0AF00F40F62 /* Main.storyboard */; };
 		1ADEA13E218CF0B000F40F62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ADEA13D218CF0B000F40F62 /* Assets.xcassets */; };
 		1ADEA141218CF0B000F40F62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ADEA13F218CF0B000F40F62 /* LaunchScreen.storyboard */; };
-		1ADEA14B218CFB1E00F40F62 /* ListenerServerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADEA14A218CFB1E00F40F62 /* ListenerServerController.swift */; };
 		1ADEA14D218CFC5A00F40F62 /* ListenerEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADEA14C218CFC5A00F40F62 /* ListenerEndpoint.swift */; };
 		79797798C4287F1B22C36D39 /* Pods_Twit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4697F20CD23AC2C8468A43E0 /* Pods_Twit.framework */; };
 /* End PBXBuildFile section */
@@ -25,7 +24,6 @@
 		1ADEA13D218CF0B000F40F62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1ADEA140218CF0B000F40F62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1ADEA142218CF0B000F40F62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ADEA14A218CFB1E00F40F62 /* ListenerServerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerServerController.swift; sourceTree = "<group>"; };
 		1ADEA14C218CFC5A00F40F62 /* ListenerEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerEndpoint.swift; sourceTree = "<group>"; };
 		4697F20CD23AC2C8468A43E0 /* Pods_Twit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Twit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8684A04717934D1BC07539 /* Pods-Twit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Twit.release.xcconfig"; path = "Pods/Target Support Files/Pods-Twit/Pods-Twit.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,7 +78,6 @@
 				1ADEA13D218CF0B000F40F62 /* Assets.xcassets */,
 				1ADEA13F218CF0B000F40F62 /* LaunchScreen.storyboard */,
 				1ADEA142218CF0B000F40F62 /* Info.plist */,
-				1ADEA14A218CFB1E00F40F62 /* ListenerServerController.swift */,
 				1ADEA14C218CFC5A00F40F62 /* ListenerEndpoint.swift */,
 			);
 			path = Twit;
@@ -208,7 +205,6 @@
 			files = (
 				1ADEA14D218CFC5A00F40F62 /* ListenerEndpoint.swift in Sources */,
 				1ADEA139218CF0AF00F40F62 /* ViewController.swift in Sources */,
-				1ADEA14B218CFB1E00F40F62 /* ListenerServerController.swift in Sources */,
 				1ADEA137218CF0AF00F40F62 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
